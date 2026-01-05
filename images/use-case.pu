@@ -4,7 +4,7 @@ actor "Visiteur" as Visiteur
 actor "Admin" as Admin
 
 package "Application Todo List" {
-    usecase "Consulter la page d'accueil" as UC_Accueil
+    usecase "Consulter la page propriétés" as UC_Accueil
     usecase "Voir les détails d'une propriétés" as UC_Details
     
     usecase "Gérer les propriétés (CRUD)" as UC_CRUD

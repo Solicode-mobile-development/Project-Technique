@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+actor "Visiteur" as Visiteur
+actor "Admin" as Admin
+
+package "Application Todo List" {
+    usecase "Consulter la page d'accueil" as UC_Accueil
+    usecase "Voir les détails d'une tâche" as UC_Details
+    
+    usecase "Gérer les tâches (CRUD)" as UC_CRUD
+    usecase "Filtrer les tâches" as UC_Filtrer
+    usecase "Rechercher des tâches" as UC_Rechercher
+}
+
+' Relations Visiteur
+Visiteur -- UC_Accueil
+UC_Accueil <.. UC_Details : <<extend>>
+
+' Relations Admin
+Admin -- UC_CRUD
+UC_CRUD <.. UC_Filtrer : <<extend>>
+UC_CRUD <.. UC_Rechercher : <<extend>>
+
+@enduml

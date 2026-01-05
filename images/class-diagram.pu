@@ -1,0 +1,42 @@
+@startuml
+' Entités principales
+class User {
+  + id: int
+  + username: string
+  + password: string
+  + role: string
+  + created_at: datetime
+}
+
+class Property {
+  + id: int
+  + title: string
+  + description: text
+  + price: decimal
+  + city: string
+  + created_at: datetime
+  + updated_at: datetime
+  
+}
+
+class Image {
+  + id: int
+  + filename: string
+  + path: string
+  + order: int
+  + uploaded_at: datetime
+}
+
+class Category {
+  + id: int
+  + name: string
+  + slug: string
+  + description: text
+}
+
+' Relations entre entités
+User "1" -- "*" Property : poste >
+Property "1" -- "*" Image : a >
+Property "*" -- "1" Category : appartient à >
+
+@enduml

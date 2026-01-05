@@ -50,23 +50,31 @@ Ce projet technique a pour objectif :
 
 ---
 
-## 3. Les technologies à utiliser 
-
-1 Base de données : Mysql
-2 Framework : laravel
-3 Architecture N-tier : Services 
-4 Architecture : MVC
-5 Moteur de vues : blade 
-6 Ajax
-7 Upload imges
-8 laravel multilangue
-9 Vite
-10 Preline Ui library
-11 lucide library
-12 Tailwindcss
+## 3. Besoin - Analyse Technique
+### Les technologies à utiliser
+1 Base de données: MySQL.
+2 Framework: Laravel 12.
+3 Architecture N-Tiers:
+4 Controller: Requêtes HTTP.
+5 Service: Logique métier.
+6 Model: Base de données.
+7 Architecture: MVC.
+8 Blade: Templates réutilisables (components, layouts).
+9 AJAX: Interactions dynamiques (ex: Modales) sans rechargement de page.
+10 Téléchargement d'images: Possibilité de télécharger et de joindre des images aux notes.
 
 ---
-## 4.  
+
+11 Support Multi-langue: Support des langues française et anglaise (fr, en).
+12 Vite: Outil de build rapide.
+13 Preline UI: Librairie UI.
+14 Lucide: Librairie d'icônes.
+15 Tailwind CSS: Développement rapide, responsive.
+
+---
+## 4. Analyse
+
+![Schéma du processus 2TUP](./images/use-case.png)
 
 ---
 
@@ -74,17 +82,25 @@ Ce projet technique a pour objectif :
 
 ### Architecture générale
 - **2 pages publiques**
-  - Liste des propriétés
+  - Consulter la page d'accueil
 - **1 page admin**
   - Gestion CRUD
 
 ### Choix techniques
-- **UI** : Preline (composants prêts à l’emploi)
-- **Recherche** : AJAX (sans rechargement de page)
-- **Création** : Modal (meilleure UX)
-- **Présentation** : Marp (Markdown → Slides)
+CRUD centralisé dans le panel admin
+
+Recherche et filtrage implémentés en AJAX
+
+Création et édition via modal
+
+Upload d’images intégré aux opérations CRUD
+
 
 ---
+
+Partie publique découplée, orientée consultation
+
+
 
 ## Conception – Interface Utilisateur
 

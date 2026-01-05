@@ -5,11 +5,11 @@ actor "Admin" as Admin
 
 package "Application Todo List" {
     usecase "Consulter la page d'accueil" as UC_Accueil
-    usecase "Voir les détails d'une tâche" as UC_Details
+    usecase "Voir les détails d'une propriétés" as UC_Details
     
-    usecase "Gérer les tâches (CRUD)" as UC_CRUD
-    usecase "Filtrer les tâches" as UC_Filtrer
-    usecase "Rechercher des tâches" as UC_Rechercher
+    usecase "Gérer les propriétés (CRUD)" as UC_CRUD
+    usecase "Filtrer les propriétés" as UC_Filtrer
+    usecase "Rechercher des propriétés" as UC_Rechercher
 }
 
 ' Relations Visiteur

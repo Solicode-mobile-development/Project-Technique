@@ -64,5 +64,5 @@ L’objectif du projet est **d’évaluer la compréhension et la maîtrise prat
 ### Cadre du besoin
 - Application volontairement simple
 - Focus sur la logique et la qualité de l’implémentation
-- Pas d’authentification avancée requise
+- Pas d’authentification requise
 

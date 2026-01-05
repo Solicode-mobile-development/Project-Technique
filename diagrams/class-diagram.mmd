@@ -1,0 +1,39 @@
+classDiagram
+    direction LR
+    
+    class User {
+        +int id
+        +string username
+        +string role
+        +datetime created_at
+    }
+    
+    class Property {
+        +int id
+        +string title
+        +decimal price
+        +string city
+        +datetime created_at
+        +string image_path
+    }
+    
+    %% class Image {
+    %%     +int id
+    %%     +string filename
+    %%     +int order
+    %% }
+    
+    class Category {
+        +int id
+        +string name
+        +string slug
+    }
+    
+    User "1" --> "*" Property : posts
+    %% Property "1" --> "*" Image : has images
+    Property "*" --> "1" Category : categorized in
+    
+    note for User "Stocke les admins"
+    note for Property "Cœur de l'annonce"
+    note for Image "Galerie photos"
+    note for Category "Types de biens"

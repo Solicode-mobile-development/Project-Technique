@@ -16,16 +16,17 @@ class Property {
   + city: string
   + created_at: datetime
   + updated_at: datetime
+  + image_path: string
   
 }
 
-class Image {
-  + id: int
-  + filename: string
-  + path: string
-  + order: int
-  + uploaded_at: datetime
-}
+' class Image {
+'   + id: int
+'   + filename: string
+'   + path: string
+'   + order: int
+'   + uploaded_at: datetime
+' }
 
 class Category {
   + id: int
@@ -36,7 +37,7 @@ class Category {
 
 ' Relations entre entités
 User "1" -- "*" Property : poste >
-Property "1" -- "*" Image : a >
+' Property "1" -- "*" Image : a >
 Property "*" -- "1" Category : appartient à >
 
 @enduml

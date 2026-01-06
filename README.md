@@ -88,5 +88,9 @@ Processus 2TUP: Le projet suit la méthodologie 2TUP (Processus de développemen
 
 ---
 
-## 6. Sujet de Live coding
+**Sujet – Live Coding**
+
+* Mise en place d’un bouton **« Ajouter propriété»** permettant d’ouvrir une fenêtre modale dédiée à la création d’un nouvel élément.
+* Intégration d’une **barre de recherche** offrant un filtrage dynamique des éléments en fonction de leur titre.
+
 

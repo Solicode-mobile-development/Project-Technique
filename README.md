@@ -43,16 +43,10 @@ Développement d’une mini plateforme de **gestion d’annonces immobilières**
 ## 2. Contexte
 
 ### Contexte pédagogique
-Ce projet technique a pour objectif :
-- D’appliquer les connaissances acquises en développement web
-- De valider notre compréhension des concepts fondamentaux
-- De mettre en pratique une démarche de développement structurée
+Projet de Fin de Formation: Travail sur le projet de fin de formation, commençant par la branche technique.
 
-### Processus de développement
-- Méthodologie adoptée : **2TUP (Two-Track Unified Process)**
-- Séparation claire entre :
-  - Analyse & conception
-  - Implémentation & validation
+
+Processus 2TUP: Le projet suit la méthodologie 2TUP (Processus de développement en Y), séparant les branches Fonctionnelle, Technique et Réalisation.
 
 ---
 

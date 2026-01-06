@@ -19,9 +19,19 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'username',
         'email',
         'password',
+        'role',
     ];
+
+    /**
+     * Get the properties posted by the user.
+     */
+    public function properties()
+    {
+        return $this->hasMany(Property::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.

@@ -1,0 +1,6 @@
+title,description,price,city,image_path,owner_username,category_slug
+Sunny Apartment,"A lovely sunny apartment in the center.",150000.00,Casablanca,,admin,appartement
+Cozy House,"Small cozy house near the park.",350000.00,Rabat,,user,maison
+Luxury Villa,"Big villa with a pool.",2500000.00,Marrakech,,admin,villa
+Office Space,"Central office space.",500000.00,Tanger,,admin,commercial
+Beach House,"Right on the beach.",1200000.00,Tanger,,johndoe,maison

@@ -6,6 +6,16 @@ theme: default
 paginate: true
 ---
 
+## **Real Estate Management**
+
+**Property listing**
+
+**Developed By :** Ali Essamrachi
+**Supervised By :** M. Fouad Essarraj
+**Date :** 05/01/2026
+
+---
+
 # Mini Projet  
 ## Plateforme de Gestion d’Annonces Immobilières
 
@@ -83,3 +93,6 @@ Ce projet technique a pour objectif :
 ![Schéma du processus 2TUP](./images/class-diagram.png)
 
 ---
+
+## 6. Sujet de Live coding
+

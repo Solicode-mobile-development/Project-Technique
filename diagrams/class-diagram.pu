@@ -1,4 +1,6 @@
 @startuml
+left to right direction
+
 ' Entités principales
 class User {
   + id: int
@@ -14,19 +16,10 @@ class Property {
   + description: text
   + price: decimal
   + city: string
+  + image_path: string
   + created_at: datetime
   + updated_at: datetime
-  + image_path: string
-  
 }
-
-' class Image {
-'   + id: int
-'   + filename: string
-'   + path: string
-'   + order: int
-'   + uploaded_at: datetime
-' }
 
 class Category {
   + id: int
@@ -35,9 +28,14 @@ class Category {
   + description: text
 }
 
-' Relations entre entités
-User "1" -- "*" Property : poste >
-' Property "1" -- "*" Image : a >
-Property "*" -- "1" Category : appartient à >
+' Table pivot (relation Many-to-Many)
+class PropertyCategory {
+  + property_id: int
+  + category_id: int
+}
 
+' Relations
+User "1" -- "*" Property : poste >
+Property "1" -- "*" PropertyCategory
+Category "1" -- "*" PropertyCategory
 @enduml

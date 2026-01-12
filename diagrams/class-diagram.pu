@@ -28,14 +28,9 @@ class Category {
   + description: text
 }
 
-' Table pivot (relation Many-to-Many)
-class PropertyCategory {
-  + property_id: int
-  + category_id: int
-}
 
 ' Relations
-User "1" -- "*" Property : poste >
-Property "1" -- "*" PropertyCategory
-Category "1" -- "*" PropertyCategory
+User "1" -- "*" Property : poste 
+Property "*" -- "*" Category : belongsTo 
+
 @enduml

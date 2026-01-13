@@ -1,0 +1,5 @@
+username,password,role
+admin,secret123,admin
+john_doe,password123,user
+jane_smith,mypass456,user
+robert_jones,secure789,user

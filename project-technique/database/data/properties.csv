@@ -1,0 +1,11 @@
+title,description,price,city,image_path,user_username,categories
+Appartement moderne centre-ville,Magnifique appartement de 3 pièces au cœur de Casablanca avec vue sur la mer,1500000.00,Casablanca,properties/appartement1.jpg,admin,Appartement
+Villa luxueuse avec piscine,Superbe villa de 5 chambres avec piscine et grand jardin à Marrakech,4500000.00,Marrakech,properties/villa1.jpg,john_doe,Villa
+Studio étudiant proche université,Studio meublé idéal pour étudiant proche de toutes commodités,350000.00,Rabat,properties/studio1.jpg,jane_smith,Studio
+Maison familiale spacieuse,Grande maison de 4 chambres avec garage et jardin arboré,2800000.00,Fès,properties/maison1.jpg,robert_jones,Maison
+Terrain constructible zone résidentielle,Terrain de 500m² dans quartier calme et résidentiel,800000.00,Tanger,properties/terrain1.jpg,admin,Terrain
+Appartement vue mer,Bel appartement 2 chambres avec terrasse et vue panoramique sur l'océan,1800000.00,Agadir,properties/appartement2.jpg,john_doe,Appartement
+Villa contemporaine,Villa moderne de 6 pièces avec équipements haut de gamme,5200000.00,Casablanca,properties/villa2.jpg,jane_smith,Villa
+Studio meublé centre,Studio tout équipé en plein centre-ville avec parking,420000.00,Casablanca,properties/studio2.jpg,robert_jones,Studio
+Maison traditionnelle rénovée,Charmante maison marocaine entièrement rénovée avec patio,3200000.00,Marrakech,properties/maison2.jpg,admin,Maison
+Terrain agricole,Grand terrain agricole de 2 hectares avec accès à l'eau,1500000.00,Meknès,properties/terrain2.jpg,john_doe,Terrain
